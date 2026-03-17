@@ -1,0 +1,59 @@
+/*
+Theme Name: Seamless React
+Theme URI: https://ascreativeservices.com/
+Author: AS Creative Services
+Author URI: https://ascreativeservices.com/
+Description: WordPress theme that renders the Seamless React SPA build.
+Version: 1.0.0
+License: MIT
+Text Domain: seamless-react
+*/
+
+body.seamless-react-theme {
+  margin: 0;
+}
+
+.seamless-404 {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: 48px 24px;
+  background: linear-gradient(135deg, #162446 0%, #374ea2 55%, #5e37a8 100%);
+  color: #ffffff;
+  text-align: center;
+}
+
+.seamless-404__inner {
+  max-width: 640px;
+}
+
+.seamless-404__eyebrow {
+  margin: 0 0 12px;
+  font-size: 14px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  opacity: 0.72;
+}
+
+.seamless-404__title {
+  margin: 0 0 16px;
+  font-size: clamp(40px, 8vw, 72px);
+  line-height: 1;
+}
+
+.seamless-404__copy {
+  margin: 0 0 28px;
+  font-size: 18px;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.82);
+}
+
+.seamless-404__link {
+  display: inline-block;
+  padding: 14px 24px;
+  border-radius: 999px;
+  background: #ffffff;
+  color: #162446;
+  font-weight: 600;
+  text-decoration: none;
+}
